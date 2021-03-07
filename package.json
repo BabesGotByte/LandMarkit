@@ -14,6 +14,7 @@
   "devDependencies": {
     "@types/react": "16.8.2",
     "@types/react-dom": "16.8.0",
+    "@types/react-router-dom": "^5.1.7",
     "@types/web3": "1.0.18",
     "any-promise": "1.3.0",
     "babel-loader": "8.0.5",
@@ -43,8 +44,12 @@
   "dependencies": {
     "@babel/runtime": "7.3.1",
     "@portis/web3": "2.0.0-beta.34",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "react": "16.8.1",
+    "react-bootstrap": "^1.5.1",
     "react-dom": "16.8.1",
+    "react-router-dom": "^5.2.0",
     "react-toastify": "4.5.2",
     "tabookey-gasless": "0.4.0-beta2",
     "web3": "1.0.0-beta.37"

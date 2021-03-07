@@ -5,7 +5,13 @@ import Adopt from 'components/Adopt';
 import About from 'components/About';
 import Footer from 'components/Footer';
 import { ToastContainer } from 'react-toastify';
+import RegistrationForm from 'components/RegistrationForm/RegistrationForm';
 import 'react-toastify/dist/ReactToastify.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 export default class Puppers extends React.Component {
   render() {
@@ -20,7 +26,20 @@ export default class Puppers extends React.Component {
           </div>
 
           <Adopt />
+          <RegistrationForm />
         </div>
+        {/* Start of RegistrationForm */}
+{/*         
+        <div className="container d-flex align-items-center flex-column">
+          <RegistrationForm />
+            <Switch>
+              <Route path="/" exact={true}>
+                <RegistrationForm />
+              </Route>
+            </Switch>
+          </div> */}
+
+        {/* End of Registration Form */}
 
         <About />
         <Footer />
